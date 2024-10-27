@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Modelos</title>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <nav class="bg-gray-900">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <div>
+                    <span class="text-white font-bold text-xl">CM Autos</span>
+                </div>
+                <div class="hidden md:flex space-x-4">
+                    <a href="index.html" class="text-white hover:text-gray-300">Inicios</a>
+                    <a href="principal.html" class="text-white hover:text-gray-300">Principal</a>
+                    <a href="modelos.html" class="text-white hover:text-gray-300">Modelos</a>
+                    <a href="contacto.html" class="text-white hover:text-gray-300">Contactos</a>
+                    <a href="servicios.html" class="text-white hover:text-gray-300">Servicios</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800">Nuestros Modelos</h2>
+                <p class="mt-4 text-gray-600">Explora nuestra variedad de autos de alta gama.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Modelo 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://cdn.pixabay.com/photo/2016/12/14/04/10/sport-1905606_1280.png" alt="Modelo 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Modelo 1</h3>
+                        <p class="mt-2 text-gray-600">Descripción breve del Modelo 1.</p>
+                        <a href="#" onclick="toggleDetails('modelo1-details')" class="mt-4 inline-block bg-gray-800 text-white px-4 py-2 rounded">Ver Detalles</a>
+                        <div id="modelo1-details" class="mt-4 hidden">
+                            <h4 class="text-md font-bold">Detalles del Modelo 1</h4>
+                            <p>Modelo de carrera color rojo</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modelo 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://cdn.pixabay.com/photo/2016/12/14/04/10/sport-1905606_1280.png" alt="Modelo 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Modelo 2</h3>
+                        <p class="mt-2 text-gray-600">Descripción breve del Modelo 2.</p>
+                        <a href="#" onclick="toggleDetails('modelo2-details')" class="mt-4 inline-block bg-gray-800 text-white px-4 py-2 rounded">Ver Detalles</a>
+                        <div id="modelo2-details" class="mt-4 hidden">
+                            <h4 class="text-md font-bold">Detalles del Modelo 2</h4>
+                            <p>Modelo de carrera color rojo</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modelo 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://cdn.pixabay.com/photo/2016/12/14/04/10/sport-1905606_1280.png" alt="Modelo 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">Modelo 3</h3>
+                        <p class="mt-2 text-gray-600">Descripción breve del Modelo 3.</p>
+                        <a href="#" onclick="toggleDetails('modelo3-details')" class="mt-4 inline-block bg-gray-800 text-white px-4 py-2 rounded">Ver Detalles</a>
+                        <div id="modelo3-details" class="mt-4 hidden">
+                            <h4 class="text-md font-bold">Detalles del Modelo 3</h4>
+                            <p>Modelo de carrera color rojo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-gray-900 py-8 text-gray-300">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="text-center md:text-left">
+                <h3 class="font-bold text-lg mb-4 text-white">Contacto</h3>
+                <p>Email: carolinacsm14@gmail.com</p>
+                <p>Tel: 0939833971</p>
+            </div>
+            <div class="text-center">
+                <h3 class="font-bold text-lg mb-4 text-white">Síguenos</h3>
+                <div class="flex justify-center space-x-4">
+                    <a href="#" class="hover:text-white">Facebook</a>
+                    <a href="#" class="hover:text-white">Instagram</a>
+                    <a href="#" class="hover:text-white">Twitter</a>
+                </div>
+            </div>
+            <div >
+                <h3 class="font-bold text-lg mb-4 text-white">Ubicación</h3>
+                <p>El Deseo - Cone</p>    
+            </div>
+        </div>
+        <div class="mt-8 text-center text-gray-400">
+            <p>&copy; 2024 CM - Venta de Autos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>   
